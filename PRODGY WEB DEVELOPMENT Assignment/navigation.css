@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(42, 153, 151, 0.123);
+    margin: 0px;
+    height: 200vh;
+}
+
+.navigation {
+    position: fixed;
+    width: 100vw;
+}
+
+ul {
+    background-color: gray;
+    list-style: none;
+    overflow: auto;
+    border-radius: 50px;
+    margin: 10px;
+    opacity: 60%;
+}
+
+li a {
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    margin: 0px 10px;
+    font-size: x-large;
+}
+
+li a:hover {
+    background-color: rgba(14, 14, 13, 0.379);
+    color: blue;
+}
